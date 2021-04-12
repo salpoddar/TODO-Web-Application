@@ -1,0 +1,22 @@
+<h1>Welcome!</h1>
+<div class = "container" *ngIf = "!customError">
+    Welcome {{name}}!
+    <br>
+    You can manage your Todo list <a routerLink = "/todos">here</a>
+</div>
+
+<!-- <div class = "container" *ngIf = "!customError">
+    Click here to get a customized welcome message.
+    <button (click) = "getWelcomeMessageWithVariable()" class = "btn btn-success">Get Welcome Message</button>
+
+</div> -->
+
+<!-- <div class = "container" *ngIf = "customMsgFromService">
+    <h2>Your Customized Welcome Message</h2>
+    {{customMsgFromService}}
+</div>
+
+<div class = "container" *ngIf = "customError">
+    <h2>Error Occured!</h2>
+    {{customError}}
+</div> -->
